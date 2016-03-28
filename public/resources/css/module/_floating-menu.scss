@@ -1,0 +1,29 @@
+.floating-footer {
+  border-top: 1px solid #cfd8dc;
+  background: white;
+  height: 48px;
+  padding: 10px 48px;
+  position:fixed;
+  width: 90%;
+  bottom:0;
+  z-index: 1;
+
+  & a {
+    color: #5c7078;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: right;
+  }
+
+  &--icon {
+    font-size: 28px;
+    color: #5C7078;
+  }
+
+  &--divider {
+    width: 1px;
+    background-color: #cfd8dc;
+    height: 24px;
+    margin: 0 8px;
+  }
+}
